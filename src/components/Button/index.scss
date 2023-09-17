@@ -1,0 +1,20 @@
+@use '../../sass/variables' as *;
+
+.button{
+    margin: auto 10px;
+    
+    p{
+        border-radius: 10px;
+        color: #fff;
+        border: 1px solid #000;
+        padding: 10px 70px;       
+        font-size: 24px; 
+    }
+    .yes p{
+        background-color: #fff !important;
+        color: #000 !important;
+    }
+    .no p{
+        background-color: #0C70F2 !important;
+    }
+}

@@ -1,0 +1,44 @@
+@use '../sass/variables' as *;
+.home{
+    color: #fff;
+    text-align: center;
+    &__title{
+        margin: 55px auto 30px auto;
+    }
+    .section{
+        color: $tab_message;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        table {
+            border-collapse: collapse;
+            // margin-bottom: 50px;
+        }
+        img{
+            width: 20px;
+        }
+        td:first-child{
+            text-align: left !important;
+        }
+    
+        td {
+            text-align: center;
+            padding: 8px;
+            white-space: nowrap;
+            max-width: 200px; 
+        }
+        th:first-child{
+            text-align: left !important;
+        }
+        th {
+            text-align: center;
+            white-space: nowrap;
+            border-bottom: 2px solid #fff; 
+            padding: 0 5px;
+        }
+        &__add{
+            text-decoration: none;
+            color: #fff;
+        }
+    }
+}

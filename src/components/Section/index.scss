@@ -1,0 +1,32 @@
+@use '../../sass/variables' as *;
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    &__cards{
+        width: 500px;
+        height: 300px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff !important;
+        h2, p{
+            background-color: #fff !important;
+            // margin: 10px;
+        }
+        p{
+            font-size: 20px;
+        }
+        div{
+            display: flex;
+            margin-top: 10px;
+            background-color: #fff !important;
+        }
+        a{
+            background-color: #fff !important;
+        }
+    }
+}

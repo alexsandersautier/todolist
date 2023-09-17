@@ -1,0 +1,7 @@
+$background: #2D2D2D;
+$heade_button: #0C70F2;
+$tab_message: #fff;
+
+@function change-bg-color($color:#fff){
+    @return $color; 
+}
